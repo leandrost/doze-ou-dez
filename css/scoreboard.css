@@ -1,0 +1,12 @@
+@font-face {
+  font-family: DS-Digital;
+  font-style: normal;
+  src: url('../fonts/ds-digi.ttf');
+}
+#clock, #score {
+  font-family: "DS-Digital";
+  font-size: 48px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
