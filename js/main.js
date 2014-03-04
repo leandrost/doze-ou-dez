@@ -67,7 +67,7 @@ Clock.prototype.start = function () {
     alert('Game Over');
   };
 
-  this.countdown = new Countdown(10 * 60, onTick, onComplete);
+  this.countdown = new Countdown(1 * 60, onTick, onComplete);
 };
 
 Clock.prototype.pause = function () {
