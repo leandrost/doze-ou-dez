@@ -90,6 +90,7 @@ body {
 
 .title {
     color: white;
+    font-size: 1.0em;
 }
 
 /* ==============
@@ -104,7 +105,7 @@ nav ul {
 nav a {
     display: block;
     margin-bottom: 10px;
-    padding: 5px 0;
+    padding: 15px 0;
 
     text-align: center;
     text-decoration: none;
@@ -410,7 +411,7 @@ nav a:hover {
 }
 
 .main {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .header-container {
@@ -437,6 +438,6 @@ nav a:hover {
 .header-container nav li a {
    width:25%;
    float:right;
-   padding:7px;
+   padding:15px;
    margin-right:10px;
 }

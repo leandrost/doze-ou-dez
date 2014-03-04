@@ -94,14 +94,18 @@ var App = (function(){
     }
 
     function bindEvents() {
-      $("a#start").on('click', function() {
+      $("#start").on('click', function() {
         clock.start()
+        $('#pause').show();
+        $(this).hide();
       });
-      $("a#stop" ).on('click', function () {
+      $("#stop" ).on('click', function () {
         clock.reset();
       });        
-      $("a#pause" ).on('click', function () {
+      $("#pause" ).on('click', function () {
         clock.pause();
+        $('#start').show();
+        $(this).hide();
       });        
     }
 
